@@ -1,0 +1,101 @@
+/* Gaya umum untuk biodata */
+.biodata {
+    background-color: #3A6D8C;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 150px;
+    border: none;
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+.biodata p{
+    margin-left: 30px;
+    font-size: large;
+}
+
+.biodata h2{
+    margin-left: 30px;
+    font-size: x-large;
+}
+.biodata img {
+    max-width: 250px;
+    box-shadow: 0 0 9px #1d1c1c;
+    border: none;
+    border-radius: 10rem;
+    margin-right: 150px;
+}
+.footer a{
+    color: rgb(255, 255, 255);
+}
+
+/* Gaya responsif untuk biodata */
+@media only screen and (max-width: 768px) {
+    .biodata {
+        flex-direction: column; /* Atur kolom pada layar kecil */
+        margin: 10px 20px;
+        text-align: center;
+    }
+
+    .biodata p, .biodata h2 {
+        margin-left: 0; /* Hilangkan margin pada layar kecil */
+        font-size: medium;
+    }
+
+    .biodata img {
+        max-width: 200px; /* Kurangi ukuran gambar */
+        margin-right: 0;
+        margin-bottom: 20px; /* Tambahkan jarak bawah */
+    }
+}
+
+/* Gaya untuk pendidikan */
+.pendidikan {
+    background-color: #3A6D8C;
+    color: #ffffff;
+    margin: 50px 150px;
+    border: none;
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+/* Gaya responsif untuk pendidikan */
+@media only screen and (max-width: 768px) {
+    .pendidikan {
+        margin: 10px 20px;
+    }
+}
+
+/* Gaya untuk expertise */
+.expertise {
+    background-color: #3A6D8C;
+    color: #ffffff;
+    margin: 50px 150px;
+    border: none;
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+/* Gaya responsif untuk expertise */
+@media only screen and (max-width: 768px) {
+    .expertise {
+        margin: 10px 20px;
+    }
+}
+
+/* Gaya untuk footer */
+#footer {
+    color: #EAD8B1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Gaya responsif untuk footer */
+@media only screen and (max-width: 768px) {
+    #footer {
+        font-size: 14px;
+    }
+}
